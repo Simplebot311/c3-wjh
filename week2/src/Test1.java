@@ -13,7 +13,7 @@ public class Test1 {
         //提取数据
         mat = mat.replaceAll("[a-zA-Z =\\[\\]]","");
         String[] mats = mat.split(",");
-        System.out.println(mat);
+        //System.out.println(mat);
         //判断边长
         int n;
         for (n = 2; n < 100; n++) {
