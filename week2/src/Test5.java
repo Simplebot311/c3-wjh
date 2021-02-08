@@ -16,6 +16,10 @@ public class Test5 {
 
 class Monkey{
 
+    public Monkey(){
+
+    }
+
     public Monkey(String s){
 
     }
