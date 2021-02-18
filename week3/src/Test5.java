@@ -10,7 +10,7 @@ public class Test5{
                 System.out.println(a[i]);
             }
         }catch(Exception e){
-            System.out.println("发生了数组越界错误!");
+            throw new MyException("发生数组越界错误");
         }
     }
     public static void main(String[] args) {
@@ -18,8 +18,6 @@ public class Test5{
             f();
         } catch (Exception e) {
             e.printStackTrace();
-        }finally {
-            System.out.println("");
         }
     }
 }
