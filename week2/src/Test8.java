@@ -28,12 +28,12 @@ class C extends B{
 
     @Override
     void showA(){
-        System.out.println("A类中numa:"+numa);
+        System.out.println("A类中numa:"+super.numa);
     }
 
     @Override
     void showB(){
-        System.out.println("B类中numb:"+numb);
+        System.out.println("B类中numb:"+super.numb);
     }
 
     void showC(){
